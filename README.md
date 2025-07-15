@@ -38,8 +38,8 @@ An Event Management REST API using Node.js, Express, and  PostgreSQL.
     ```
     #### Constraints:
    ```
-   + 1 <= capacity <= 1000,
-   + datetime must be in ISO format
+   • 1 <= capacity <= 1000,
+   • datetime must be in ISO format
    ```
     #### Responses:
     ##### Status Code 201 - Created
