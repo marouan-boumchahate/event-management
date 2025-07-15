@@ -44,9 +44,9 @@ An Event Management REST API using Node.js, Express, and  PostgreSQL.
     #### Responses:
     ##### Status Code 400 - Bad Request
     ```
-    {
-      error: "Missing fields!! (title, location, capacity and datetime) are required!"
-    }
+   {
+     error: "Missing fields!! (title, location, capacity and datetime) are required!"
+   }
     ```
    
 
