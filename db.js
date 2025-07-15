@@ -12,9 +12,9 @@ const db = new pg.Client({
 });
 
 db.connect()
-    .catch((err) => {
-        console.log("Database Connection Failed", err);
-    });
+  .catch((err) => {
+    console.log("Database Connection Failed", err);
+  });
 
 
 const event_table_query = `

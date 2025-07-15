@@ -1,16 +1,18 @@
 import express from 'express';
 import bodyParser from 'body-parser';
-import db from './db.js';
+import eventRouter from './routes/event.js';
+import registrationRouter from './routes/registration.js';
+import userRouter from './routes/user.js';
 
 const PORT = 8080;
 const app = express();
 
 app.use(bodyParser.urlencoded({extended: true}));
 
-app.get("/", (req, res) => {
-    console.log("Everything working perfectly...");
-});
+app.use('/events', eventRouter);
+app.use('/registrations', registrationRouter);
+app.use('/users', userRouter);
 
 app.listen(PORT, () => {
-    console.log(`Server is running on the port ${PORT}`)
+    console.log(`Server is running on the port ${PORT}`);
 });
