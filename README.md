@@ -100,5 +100,11 @@ An Event Management REST API using Node.js, Express, and  PostgreSQL.
      },
      ...
    ]
+  ##### Status Code 500 - Internal Server Error
+   ```
+  {
+    error: "Server FAILED to fetch events"
+  }
+   ```
    
 
