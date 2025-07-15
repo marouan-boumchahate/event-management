@@ -42,10 +42,34 @@ An Event Management REST API using Node.js, Express, and  PostgreSQL.
       + datetime must be in ISO format
    ```
     #### Responses:
+    ##### Status Code 201 - Created
+    ```
+   {
+     eventID: 5
+   }
+    ```
     ##### Status Code 400 - Bad Request
     ```
    {
      error: "Missing fields!! (title, location, capacity and datetime) are required!"
+   }
+    ```
+    ##### Status Code 400 - Bad Request
+    ```
+   {
+     error: "Inavlid capacity!! range (1, 1000)"
+   }
+    ```
+    ##### Status Code 400 - Bad Request
+    ```
+   {
+     error: "Invalid datetime format!"
+   }
+    ```
+    ##### Status Code 500 - Internal Server Error
+    ```
+   {
+     error: "Server FAILED to insert the new event!!"
    }
     ```
    
