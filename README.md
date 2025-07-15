@@ -1,4 +1,4 @@
-# event-management
+# Events Management - API
 An Event Management REST API using Node.js, Express, and  PostgreSQL.
 
 ---
