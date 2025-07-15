@@ -83,7 +83,7 @@ An Event Management REST API using Node.js, Express, and  PostgreSQL.
    #### Responses:
    ##### Status Code 200 - OK
    ```
-      "events": [
+   "events": [
      {
        "eventID": 5,
        "title": "Tech Conference 2025",
