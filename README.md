@@ -107,5 +107,36 @@ An Event Management REST API using Node.js, Express, and  PostgreSQL.
      error: "Server FAILED to fetch events"
    }
     ```
+3. ### GET /events/:id
+   #### Description:
+   Retrieves detailed information about a specific event including registered users
+   
+   #### Path Parameters:
+   - `id` (integer): The ID of the event to retrieve
+   
+   #### Responses:
+   ##### Status Code 200 - OK
+   ```
+   "event": {
+     "eventID": 5,
+     "title": "Tech Conference 2025",
+     "location": "Casablanca, Morocco",
+     "datetime": "2025-08-20T10:00:00.000Z",
+     "capacity": 450,
+     "registeredUsers": [
+       {
+         "userID": 101,
+         "name": "John Doe",
+         "email": "john@example.com"
+       },
+       {
+         "userID": 102,
+         "name": "Jane Smith",
+         "email": "jane@example.com"
+       },
+       ...
+     ]
+   }
+   ```
    
 
