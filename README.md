@@ -42,11 +42,11 @@ An Event Management REST API using Node.js, Express, and  PostgreSQL.
       + datetime must be in ISO format
    ```
     #### Responses:
-      ##### Status Code 400 - Bad Request
-      ```
-         {
-           error: "Missing fields!! (title, location, capacity and datetime) are required!"
-         }
-      ```
+    ##### Status Code 400 - Bad Request
+    ```
+    {
+      error: "Missing fields!! (title, location, capacity and datetime) are required!"
+    }
+    ```
    
 
