@@ -98,8 +98,9 @@ An Event Management REST API using Node.js, Express, and  PostgreSQL.
        "datetime": "2025-09-15T14:00:00.000Z",
        "capacity": 200
      },
+     ... 
    ]
-  ...
+  ```
   ##### Status Code 500 - Internal Server Error
    ```
   {
