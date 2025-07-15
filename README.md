@@ -17,7 +17,7 @@ An Event Management REST API using Node.js, Express, and  PostgreSQL.
     - DB_NAME=your-database-name<br>
     - DB_PASSWORD=your-database-password<br>
     - DB_PORT=5432<br>
-8. finally run ```node .\index.js```
+8. start the server by ```node .\index.js```
 
 ---
 
