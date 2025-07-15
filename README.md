@@ -83,7 +83,7 @@ An Event Management REST API using Node.js, Express, and  PostgreSQL.
    #### Responses:
    ##### Status Code 200 - OK
    ```
-   "events": [
+      "events": [
      {
        "eventID": 5,
        "title": "Tech Conference 2025",
@@ -98,14 +98,14 @@ An Event Management REST API using Node.js, Express, and  PostgreSQL.
        "datetime": "2025-09-15T14:00:00.000Z",
        "capacity": 200
      },
-     ... 
+     ...
    ]
-  ```
-  ##### Status Code 500 - Internal Server Error
    ```
-  {
-    error: "Server FAILED to fetch events"
-  }
-   ```
+   ##### Status Code 500 - Internal Server Error
+    ```
+   {
+     error: "Server FAILED to fetch events"
+   }
+    ```
    
 
