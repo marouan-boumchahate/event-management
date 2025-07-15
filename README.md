@@ -23,11 +23,11 @@ An Event Management REST API using Node.js, Express, and  PostgreSQL.
 
 ## APIs Description
 1. ### POST /events
-   **Description:**
+   #### Description:
    ```
    Creates a new event
    ```
-   **Request Body:**
+   #### Request Body:
     ```
      {
        "title": "Tech Conference 2025",
@@ -36,10 +36,14 @@ An Event Management REST API using Node.js, Express, and  PostgreSQL.
        "capacity": 450
      }
     ```
-    **Constraints:**
+    #### Constraints:
    ```
       + 1 <= capacity <= 1000,
       + datetime must be in ISO format
+   ```
+    #### Responses:
+   ```
+      1. status cod
    ```
    
 
