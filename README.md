@@ -22,9 +22,14 @@ An Event Management REST API using Node.js, Express, and  PostgreSQL.
 ---
 
 ## APIs Description
-1. POST ```/events```
+1. POST
+   ```
+   /events
+   ```
    **Description:**
-   ```Creates a new event```
+   ```
+   Creates a new event
+   ```
    **Request Body:**
     ```
      {
