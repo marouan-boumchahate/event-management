@@ -4,17 +4,20 @@ An Event Management REST API using Node.js, Express, and  PostgreSQL.
 ---
  
 ## Setup Instructions
-1. Clone the repo: ```https://github.com/marouan-boumchahate/event-management```
-2. ```cd event-management```
-3. ```npm install```
-4. Ensure PostgreSQL is running and create your database manually or via script.
-5. create ```.env``` file, then add the coming attributes:<br>
+1. Download and install Node.js from [https://nodejs.org/](https://nodejs.org/) if you don't have it
+2. Download PostgreSQL from [https://www.postgresql.org/download/](https://www.postgresql.org/download/) if you don't have it
+3. Clone the repository:<br>
+```https://github.com/marouan-boumchahate/event-management```
+4. ```cd event-management```
+5. ```npm install```
+6. Ensure PostgreSQL is running and create your database manually or via script.
+7. create ```.env``` file, then add the coming attributes:<br>
      DB_USER=your-postgres-username<br>
      DB_HOST=localhost<br>
      DB_NAME=your-database-name<br>
      DB_PASSWORD=your-database-password<br>
      DB_PORT=5432<br>
-6. finally run ```node .\index.js```
+8. finally run ```node .\index.js```
 
 ---
 
