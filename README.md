@@ -29,17 +29,17 @@ An Event Management REST API using Node.js, Express, and  PostgreSQL.
    ```
    #### Request Body:
     ```
-     {
-       "title": "Tech Conference 2025",
-       "location": "Casablanca, Morocco", 
-       "datetime": "2025-08-20 13:00:00+03",
-       "capacity": 450
-     }
+   {
+     "title": "Tech Conference 2025",
+     "location": "Casablanca, Morocco", 
+     "datetime": "2025-08-20 13:00:00+03",
+     "capacity": 450
+   }
     ```
     #### Constraints:
    ```
-      + 1 <= capacity <= 1000,
-      + datetime must be in ISO format
+   + 1 <= capacity <= 1000,
+   + datetime must be in ISO format
    ```
     #### Responses:
     ##### Status Code 201 - Created
