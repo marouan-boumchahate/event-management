@@ -72,5 +72,33 @@ An Event Management REST API using Node.js, Express, and  PostgreSQL.
      error: "Server FAILED to insert the new event!!"
    }
     ```
+2. ### GET /events
+   #### Description:
+   Retrieves all future events sorted by datetime (ascending) and location (ascending)
+   
+   #### Request:
+   ```
+   None
+   ```
+   #### Responses:
+   ##### Status Code 200 - OK
+   ```
+   "events": [
+     {
+       "eventID": 5,
+       "title": "Tech Conference 2025",
+       "location": "Casablanca, Morocco",
+       "datetime": "2025-08-20T10:00:00.000Z",
+       "capacity": 450
+     },
+     {
+       "eventID": 8,
+       "title": "Developer Meetup",
+       "location": "Rabat, Morocco",
+       "datetime": "2025-09-15T14:00:00.000Z",
+       "capacity": 200
+     },
+     ...
+   ]
    
 
