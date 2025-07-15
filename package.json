@@ -1,0 +1,27 @@
+{
+  "name": "event-management",
+  "version": "1.0.0",
+  "description": "an Event Management REST API using Node.js, Express, and  PostgreSQL.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marouan-boumchahate/event-management.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marouan-boumchahate/event-management/issues"
+  },
+  "homepage": "https://github.com/marouan-boumchahate/event-management#readme",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "pg": "^8.16.3"
+  }
+}
